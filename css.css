@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.container1 {
+  width: 100%;
+  height: 15vh;
+  background-color: #6c804e;
+}
+
+.container1 .container1__text {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: sans-serif;
+  font-size: 50px;
+  color: #edf0e2;
+}
+
+.container2 {
+  width: 100%;
+  height: 100%;
+  background-color: #f3ece7;
+}
+
+.container2 .areas {
+  margin: 0 15%;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0px;
+  border-collapse: collapse;
+  max-height: 45vh;
+  height: 100%;
+}
+
+table td {
+  border: 2px solid black;
+}
+
+table .areas {
+  width: 50%;
+}
+
+form {
+  font-size: 30px;
+  padding: 5%;
+}
+
+.button {
+  height: 50px;
+  min-width: 30px;
+  border: 1px solid black;
+  font-size: 40px;
+  background-color: #b6f0b6;
+  border-radius: 5%;
+  -webkit-box-shadow: 2px 1px black;
+          box-shadow: 2px 1px black;
+}
+
+.button:hover {
+  -webkit-box-shadow: 2px 1px black;
+          box-shadow: 2px 1px black;
+  background-color: #cfe989;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+}
+
+.container3 {
+  background-color: rgba(75, 218, 144, 0.235);
+  min-height: 40vh;
+}
+
+.container3 .result_table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+.container3 .result_table td {
+  width: 15.6666666666%;
+  padding: 1px 65px;
+}
