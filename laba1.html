@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>webproga.laba1</title>
+	<link href="../css/css.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<header>
+
+		<div class="container1">
+			<div class="container1__text">
+				<p> Головков Михаил Сергеевич, P3232, вариант №2891 </p>
+			</div>
+		</div>
+
+	</header>
+
+	<nav>
+
+		<div class="container2">
+			<table name="maintable">
+
+					<tr>
+
+						<td class="column1">
+						  <div class="areas">
+							  <img src="../images/areas.jpg" width="100%" alt="Область">
+						  </div>
+						</td>
+  
+						<td class="column2">
+						  <form id="loginform" >
+							  
+								  <label for="xValue">Координата X:</label><br><br>
+								  <input type="hidden" id="xValue" name="xValue"  value="LoL">
+								  <button type="button" class="button" onclick="xValue.value='-3'">-3</button>
+								  <button type="button" class="button" onclick="xValue.value='-2'">-2</button>
+								  <button type="button" class="button" onclick="xValue.value='-1'">-1</button>
+								  <button type="button" class="button" onclick="xValue.value='0'">0</button>
+								  <button type="button" class="button" onclick="xValue.value='1'">1</button>
+								  <button type="button" class="button" onclick="xValue.value='2'">2</button>
+								  <button type="button" class="button" onclick="xValue.value='3'">3</button>
+								  <button type="button" class="button" onclick="xValue.value='4'">4</button>
+								  <button type="button" class="button" onclick="xValue.value='5'">5</button><br><br>
+							  
+							  
+								  <label for="yValue">Координата Y: </label>
+								  <input type="text" id="yValue" name="yValue"  placeholder="..." autocomplete="off"><br><br>
+							  
+							  
+								  <label for="radius">Радиус R:</label>
+								  <select name="radius" id="radius">
+									 <option value="1">1</option>
+									 <option value="2">2</option>
+									 <option value="3">3</option>
+									 <option value="4">4</option>
+									 <option value="5">5</option>
+								  </select><br><br>
+							  
+							  
+								  <button type="submit" class="button" name="send" >Отправить</button>
+							  
+						  </form>
+						</td>
+  
+					 </tr>
+
+			 </table>
+		</div>
+
+	</nav>
+
+	<footer>
+
+		<div class="container3">
+
+			<table class="result_table" id="result_table">
+				<tr span style="font-weight: 900;">
+					 <td > X</td>
+					 <td> Y</td>
+					 <td>R</td>
+					 <td>Result</td>
+					 <td>Current Time</td>
+					 <td>Computation Time</td>
+				</tr>
+		  </table>
+
+		</div>
+
+	</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../JS/1.js"></script>
+</body>

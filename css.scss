@@ -1,0 +1,71 @@
+@import "_nullstyle.scss";
+.container1 {
+	width: 100%;
+	height: 15vh;
+	background-color: rgb(108, 128, 78);
+	.container1__text {
+		height: 100%;
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: sans-serif;
+		font-size: 50px;
+		color: rgb(237, 240, 226);
+}
+}
+
+.container2 {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(243, 236, 231);
+			.areas{
+				margin: 0 15%;
+			}
+		}
+		table{
+			width: 100%;
+			border-spacing: 0px;
+			border-collapse: collapse;
+			max-height: 45vh;
+			height: 100%;
+			td{
+				border: 2px solid black;
+			}
+			
+		.areas{
+			width: 50%;
+		}
+		}
+ form{
+	font-size: 30px;
+	padding: 5%;
+}
+.button{
+	height: 50px;
+	min-width: 30px;
+	border: 1px solid black;
+	font-size: 40px;
+	background-color: rgb(182, 240, 182);
+	border-radius: 5%;
+	box-shadow: 2px 1px black;
+	&:hover{
+		box-shadow: 2px 1px black;
+		background-color: rgb(207, 233, 137);
+		transition-duration: 1s;
+		transition-delay: 0.1s;
+		transition-timing-function: ease;
+	}
+}
+.container3{
+	background-color: rgba(75, 218, 144, 0.235);
+	min-height: 40vh;
+.result_table{
+	border-spacing: 0px;
+	border-collapse: collapse;
+	td{
+		width: 15.6666666666%;
+		padding: 1px 65px;
+	}
+}
+}
